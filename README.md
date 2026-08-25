@@ -2,40 +2,40 @@
 
 ![42](https://img.shields.io/badge/42-School-000000?style=flat-square&logo=42&logoColor=white) ![Language](https://img.shields.io/badge/lang-C%20%2B%20MiniLibX-blue?style=flat-square) ![Status](https://img.shields.io/badge/status-completed-success?style=flat-square)
 
-Motor de raycasting 3D en C inspirado en Wolfenstein, construido con MiniLibX.
+3D raycasting engine in C inspired by Wolfenstein, built with MiniLibX.
 
 ## Stack
 
 - School: 42
-- Lenguaje principal: C + MiniLibX
-- Alcance: un repositorio por proyecto
+- Primary language: C + MiniLibX
+- Scope: one repository per project
 
 ## Features
 
-- Renderizado 3D en tiempo real mediante raycasting, sin motor grafico externo
-- Parser de mapas .cub con validacion de texturas, colores de piso/techo y colisiones
-- Movimiento y rotacion de camara fluidos con control de FPS
+- Real-time 3D rendering via raycasting, with no external graphics engine
+- Parser for .cub map files with validation of textures, floor/ceiling colors, and collisions
+- Smooth camera movement and rotation with FPS control
 
 ## Screenshots
 
-![Gameplay](docs/screenshots/gameplay.png)
+![gameplay](docs/screenshots/gameplay.png)
 
-## Como Ejecutarlo
+## How to Run
 
 ~~~bash
 make
 ./cub3D map.cub
 ~~~
 
-## Pruebas
+## Testing
 
-No se detectaron scripts de testing dedicados en la raiz.
+No dedicated testing scripts were detected at the project root.
 
-## Notas
+## Notes
 
-- Este repositorio forma parte del portfolio de 42.
-- Los comandos estan orientados a ejecucion local para revision y evaluacion.
+- This repository is part of the 42 portfolio.
+- Commands are intended for local execution for review and evaluation.
 
-## Autora
+## Author
 
 anapaulapgavilan
