@@ -1,0 +1,4 @@
+*.o
+cub3D
+libft/libft.a
+lib/MLX42/build/

@@ -16,6 +16,10 @@ Motor de raycasting 3D en C inspirado en Wolfenstein, construido con MiniLibX.
 - Parser de mapas .cub con validacion de texturas, colores de piso/techo y colisiones
 - Movimiento y rotacion de camara fluidos con control de FPS
 
+## Screenshots
+
+![Gameplay](docs/screenshots/gameplay.png)
+
 ## Como Ejecutarlo
 
 ~~~bash
