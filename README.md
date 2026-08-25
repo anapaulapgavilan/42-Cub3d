@@ -4,6 +4,18 @@
 
 3D raycasting engine in C inspired by Wolfenstein, built with MiniLibX.
 
+## About This Project
+
+### What It Does
+
+Cub3d is a first-person 3D maze viewer rendered entirely with raycasting: for every vertical strip of the screen, it casts a ray from the player's position until it hits a wall, then draws a wall slice whose height and texture depend on the distance and the side that was hit.
+
+The map, textures (per-cardinal-direction wall textures), floor/ceiling colors, and player start position/orientation are all read from a .cub scene file at startup, which is validated before rendering begins (closed map, valid characters, exactly one player). At runtime, the player can move and strafe with the keyboard and rotate the view with the mouse or arrow keys, with a small 2D minimap overlaid for orientation.
+
+### Purpose
+
+It evaluates the ability to implement a classic real-time rendering technique (raycasting, the same core idea behind Wolfenstein 3D) from first principles in C, combining geometry/trigonometry, file parsing with strict validation, and a game loop driven by a graphics library (MiniLibX) instead of a ready-made engine.
+
 ## Stack
 
 - School: 42
@@ -21,6 +33,8 @@
 ![gameplay](docs/screenshots/gameplay.png)
 
 ## How to Run
+
+Prerequisites: `make`, a C compiler, and MiniLibX's dependencies (X11, Xext, and OpenGL/GLFW development libraries - MiniLibX itself is vendored under `lib/MLX42`).
 
 ~~~bash
 make
