@@ -32,6 +32,12 @@ It evaluates the ability to implement a classic real-time rendering technique (r
 - Parser for .cub map files with validation of textures, floor/ceiling colors, and collisions
 - Smooth camera movement and rotation with FPS control
 
+## Review Focus
+
+- Look for map validation before rendering: closed boundaries, valid characters, and exactly one player start.
+- Review the raycasting loop, distance correction, texture selection, and collision behavior.
+- Notice how low-level graphics, input handling, and geometry come together without a game engine.
+
 ## Screenshots
 
 ![gameplay](docs/screenshots/gameplay.png)
