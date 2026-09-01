@@ -22,6 +22,10 @@ It evaluates the ability to implement a classic real-time rendering technique (r
 - Primary language: C + MiniLibX
 - Scope: one repository per project
 
+## Skills Demonstrated
+
+`Raycasting` | `Real-time rendering` | `Trigonometry/geometry` | `Strict file parsing` | `MiniLibX`
+
 ## Features
 
 - Real-time 3D rendering via raycasting, with no external graphics engine
