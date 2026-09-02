@@ -38,9 +38,23 @@ It evaluates the ability to implement a classic real-time rendering technique (r
 - Review the raycasting loop, distance correction, texture selection, and collision behavior.
 - Notice how low-level graphics, input handling, and geometry come together without a game engine.
 
+## Project Deep Dive
+
+Cub3d is a graphics project that makes rendering visible from first principles. The program turns a 2D map into a first-person 3D view by casting rays, measuring wall distances, selecting textures, and drawing vertical slices on screen.
+
+The project is also a parser and validation exercise. Before rendering, the .cub file must describe a valid world: textures, colors, map layout, allowed characters, and a single player start. That makes the visual output depend on both math and robust input validation.
+
+## Implementation Notes
+
+- Uses raycasting instead of a 3D engine, so projection and distance correction are implemented directly.
+- Validates map closure and player state before starting the game loop.
+- Combines keyboard/mouse input, collision checks, texture sampling, and minimap rendering.
+
 ## Screenshots
 
 ![gameplay](docs/screenshots/gameplay.png)
+
+*Raycasting output in motion: textured walls, player navigation, and the in-game view rendered from the map.*
 
 ## How to Run
 
